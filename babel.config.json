@@ -1,0 +1,8 @@
+{
+  "presets" : [["@babel/env", {
+    "corejs": 3.21,
+    "useBuiltIns": "usage",
+    "targets": "> 0.25%, not dead"
+    }]],
+    "plugins": ["@babel/plugin-proposal-numeric-separator"]
+}
